@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailN.MSBuild", "src\MailN.MSBuild\MailN.MSBuild.csproj", "{E270EAAD-0800-4298-ABBA-AB3B4F4220B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailN.MSTest", "tests\MailN.MSTest\MailN.MSTest.csproj", "{B8F4A8AD-BDFC-4B27-BE14-EC319A4B85F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		changelog.md = changelog.md
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{F76A42DB-BBCF-42A5-95A4-DF6BBA0416D0}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		commands.json = commands.json
+		Directory.Build.props = Directory.Build.props
+		build\manifest.json = build\manifest.json
+		build\tasks.psake.ps1 = build\tasks.psake.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailN", "src\MailN\MailN.csproj", "{5F4C615A-E12C-4A49-BCEF-F1EF061C3A99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E270EAAD-0800-4298-ABBA-AB3B4F4220B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E270EAAD-0800-4298-ABBA-AB3B4F4220B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E270EAAD-0800-4298-ABBA-AB3B4F4220B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E270EAAD-0800-4298-ABBA-AB3B4F4220B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F4A8AD-BDFC-4B27-BE14-EC319A4B85F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F4A8AD-BDFC-4B27-BE14-EC319A4B85F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F4A8AD-BDFC-4B27-BE14-EC319A4B85F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F4A8AD-BDFC-4B27-BE14-EC319A4B85F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4C615A-E12C-4A49-BCEF-F1EF061C3A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4C615A-E12C-4A49-BCEF-F1EF061C3A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4C615A-E12C-4A49-BCEF-F1EF061C3A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4C615A-E12C-4A49-BCEF-F1EF061C3A99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8C2D73C-F25A-46DC-965B-E8A9CB4B7A25}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿{
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 40
+  },
+  "name": "MailN",
+  "description": "A toolset for building html email templates.",
+  "company": "Ackara",
+  "copyright": "Copyright {year} {company}, All Rights Reserved.",
+  "website": "https://github.com/Ackara/MailN",
+  "repository": "https://github.com/Ackara/MailN.git",
+  "icon": "icon.png",
+  "releaseNotes": "https://github.com/{company}/{name}/blob/master/changelog.md",
+  "branchVersionMap": {
+    "master": "C",
+    "default": "x.y.z-\\beta"
+  }
+}

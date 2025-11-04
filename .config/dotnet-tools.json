@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "cecrets.cli": {
+      "version": "2.0.5",
+      "commands": [
+        "app-secret"
+      ],
+      "rollForward": false
+    }
+  }
+}

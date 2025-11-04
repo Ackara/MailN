@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+
+		<Version>0.0.40</Version>
+		<AssemblyVersion>0.0.40</AssemblyVersion>
+		<AssemblyFileVersion>0.0.40</AssemblyFileVersion>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/Ackara/MailN.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Ackara/MailN</PackageProjectUrl>
+		<PackageReleaseNotes>https://github.com/Ackara/MailN/blob/master/changelog.md</PackageReleaseNotes>
+		<Copyright>Copyright 2025 Ackara, All Rights Reserved.</Copyright>
+		<PackageLicenseFile>license.md</PackageLicenseFile>
+
+		<Title>MailN</Title>
+		<Description>A toolset for building html email templates.</Description>
+		<Company>Ackara</Company>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ApprovalTests" Version="7.0.0" />
+		<PackageReference Include="AutoBogus.Conventions" Version="2.13.1" />
+		<PackageReference Include="AutoBogus.NSubstitute" Version="2.13.1" />
+		<PackageReference Include="Cecrets" Version="2.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="9.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.10" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+		<PackageReference Include="MSTest" Version="3.6.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="Shouldly" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\MailN.MSBuild\MailN.MSBuild.csproj" />
+		<ProjectReference Include="..\..\src\MailN\MailN.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="test-data/**/*.html">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+
+		<Content Include="test-data/**/*.scss">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+
+		<Content Include="test-data/**/*.css">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Tests\approved-results\" />
+	</ItemGroup>
+
+
+
+
+</Project>

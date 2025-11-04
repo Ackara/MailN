@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+		<SolutionName Condition="$(SolutionName)==''">$([System.IO.Path]::GetFileName($([System.IO.Path]::GetDirectoryName($(MSBuildThisFileDirectory)))))</SolutionName>
+		<SecretFile>$([System.IO.Path]::Combine($(MSBuildThisFileDirectory), 'secrets.json'))</SecretFile>
+		<ApplicationConfigurationName Condition="$(ApplicationConfigurationName)==''">local</ApplicationConfigurationName>
+	</PropertyGroup>
+</Project>
