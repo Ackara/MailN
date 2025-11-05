@@ -33,7 +33,7 @@
 	<ItemGroup Label="NuGET">
 		<Content Include="../../$(PackageIcon)" Pack="true" PackagePath="\" Visible="false" />
 		<None Include="../../$(PackageReadmeFile)" Pack="true" PackagePath="\" Visible="false" />
-		<Content Include="../../license.md" Pack="true" PackagePath="\" Visible="false" />
+		<Content Include="../../LICENSE" Pack="true" PackagePath="\" Visible="false" />
 		<None Include="msbuild.targets" Pack="true" PackagePath="build/$(MSBuildProjectName).targets" />
 		<None Include="$(CustomTaskDLLFolder)/*.dll" Pack="true" PackagePath="build/bin" />
 	</ItemGroup>
