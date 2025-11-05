@@ -4,9 +4,9 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
 
-		<Version>0.0.40</Version>
-		<AssemblyVersion>0.0.40</AssemblyVersion>
-		<AssemblyFileVersion>0.0.40</AssemblyFileVersion>
+		<Version>0.0.41</Version>
+		<AssemblyVersion>0.0.41</AssemblyVersion>
+		<AssemblyFileVersion>0.0.41</AssemblyFileVersion>
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryUrl>https://github.com/Ackara/MailN.git</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/Ackara/MailN</PackageProjectUrl>

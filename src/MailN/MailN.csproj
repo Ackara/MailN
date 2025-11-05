@@ -9,9 +9,9 @@
 		<Title>MailN</Title>
 		<Description>A toolset for building html email templates.</Description>
 
-		<Version>0.0.40</Version>
-		<AssemblyVersion>0.0.40</AssemblyVersion>
-		<AssemblyFileVersion>0.0.40</AssemblyFileVersion>
+		<Version>0.0.41</Version>
+		<AssemblyVersion>0.0.41</AssemblyVersion>
+		<AssemblyFileVersion>0.0.41</AssemblyFileVersion>
 
 		<Company>Ackara</Company>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>

@@ -2,7 +2,7 @@
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 40
+    "patch": 41
   },
   "name": "MailN",
   "description": "A toolset for building html email templates.",
